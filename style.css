@@ -1,0 +1,361 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+section{
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    size: 1000px;
+    width: 1507px;
+    height: 50px;
+    position: fixed;
+    background: white;
+    font-weight: 10px;
+    background-color: white;
+    z-index: 10000;
+    padding-bottom: 60px;
+}
+
+nav .logoside{
+    display: flex;
+    justify-content: space-around;
+}
+nav .logoside .fa-bars{
+      padding-top: 20px;
+      padding-left: 40px;
+      size: 20px;
+      color: black;
+}
+nav .logo{
+    display: flex;
+    justify-content: center;
+}
+nav .logo h1{
+    padding-top: 15px;
+    padding-left: 0px;
+}
+/* nav .login{
+    display: flex;
+    justify-content: space-between;
+    
+} */
+nav .login {
+    padding: 10px;
+    margin-top: 10px;
+}
+/* nav  .fa-user{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid black;
+}  */
+nav .middle .search{
+/*     margin-top: 10px;
+ */ 
+    border-radius: 30px;
+    border: 0.5px solid black;
+    height: 40px;
+    width: 450px;
+    margin-top: 10px;
+    position: relative;
+    padding: 10px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+
+
+}
+nav .logoside a .fa-bars{
+    height: 100px;
+}
+nav .middle .search input{
+    background-color: white;
+    border-radius: 20px;
+    width: 400px;
+    border: 0px solid black;
+
+}
+nav .middle .search .url{
+    outline-color: white;
+}
+nav .middle{
+    display: flex;
+
+
+}
+nav .middle .voice{
+    margin-top: 20px;
+    margin-left: 10px;
+    color: black;
+}
+nav .middle .search .fa-magnifying-glass{
+    color: black;
+    margin-left: 0px;
+}
+/* nav .middle .voice {
+    margin-top: 50px;
+    padding-left: 100px;
+} */
+nav .login{
+    margin-right: 100px;
+}
+nav .user{
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-right: 160px;
+    border: 1.9px solid black;
+    width: 40px;
+    height: 40px;
+}
+nav .user .fa-user{
+    margin-top: 10px;
+    margin-left: 12px;
+    color: black;
+    width: 10px;
+}
+nav .right{
+    display: flex;
+}
+.main .left {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-right: 0px;
+    margin-top: 50px;
+    position: relative;
+}
+.main .left .name{
+    display: flex;
+    justify-content: start;
+    padding: 0px;
+    padding-top: -10px;
+    border-radius: 20px;
+    color: black;
+    
+/*     justify-content: flex-start;
+ */   /*  justify-content: space-between; */
+ 
+}
+.main .left .name1{
+    display: flex;
+    padding: 0px;
+    justify-items: start;
+    padding-top: -10px;
+    border-radius: 20px;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    padding-left: 3px;
+
+}
+.main .left .name1:hover{
+    background-color: lightgray;
+}
+.main .left .name1 a{
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 8px;
+    color: black;
+
+  /*   padding-left: 2px;
+    padding-right: 2px; */
+    margin-right: 10px;
+}
+.main .left .name a,
+.main  .left .name h4{
+    padding: 10px;
+    color: black;
+    font-family: sans-serif;
+}
+.main .left .name h4{
+    padding-top: 15px;
+}
+
+.main .videos{
+    width: 200px;
+/*     border: 2px solid black;
+ */    position: relative;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+nav .right .user{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+nav .right img{
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-right: 160px;
+    margin-bottom: 100px;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    flex: 1;
+}
+.main .left h3{
+    margin-left: 10px;
+    margin: 10px;
+}
+nav .right h3{
+    padding-top: 20px;
+
+}
+.main .left .break{
+    width: 200px;
+    height: 2px;
+    border: 1.3px solid black;
+    margin-bottom: 10px;
+}
+.main .left .name:hover{
+    background-color:lightgray
+
+}
+/* nav{
+    background: white;
+    background-color: red;
+    wi
+} */
+/* .main .videos iframe { 
+	
+    filter: url("Pushpa\ Official\ Trailer\ _\ Allu\ Arjun\ _\ Rashmika\ _\ Fahadh\ Faasil\ _\ Sukumar\ _\ DSP\ _\ 17th\ Dec.mp4");
+    /* Firefox 3.5+, IE10 */
+    filter: gray;
+    /* IE6-9 */
+    -webkit-filter: grayscale(100%);
+    /* Chrome 19+ & Safari 6+ */
+   
+    -webkit-backface-visibility: hidden;
+    /* Fix for transition flickering */
+
+  /* iframe:hover {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+  }  */
+/* .main .videos .contents .content .hidden{
+    display: ;
+
+}
+.main .videos .contents .content a:hover{
+    display: grid;
+} */
+.main .videos .contents .content .video-container {
+    position: relative;
+    display: inline-block;
+    width: 300px;  /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+}
+
+.main .videos .contents .content .video-container img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.main .videos .contents .content .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: none;
+}
+
+.main .videos .contents .content .video-container:hover iframe {
+    display: block;
+}
+.main .left .break-down{
+    display: flex;
+    justify-content: start;
+    font-size: larger;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main .left .break-down a{
+    margin-left: 10px;
+    color: black;
+}
+.main .left .break-down a .fa-greater-tham{
+    width: 20px;
+    height: 20px;
+}
+.main .videos .headbar {
+     display: flex;
+     justify-content: space-around;
+     padding-top:15px;
+     list-style-type: none;
+     
+}
+.main .left-main ,
+.main .videos{
+    overflow-y: scroll;
+    padding-left: 1em;
+    padding-right: 2em;
+}
+
+.left{
+    flex: 1;
+}
+.videos{
+    flex: 2;
+}
+/* .main .videos .headbar{
+    margin-top: 50px;
+} */
+.main .videos .headbar h4 {
+    border-radius: 8px;
+    background-color: lightgray;
+    margin-bottom: 2em;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 200;
+    
+}
+.main .videos .headbar h4:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+nav{
+    margin-bottom: 10px;
+}
+.main .videos .headbar .active1{
+    background: black;
+    color: white;
+}
+
+.main .videos .contents{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,5fr));
+    gap: 3.5rem;
+    align-content: flex-start;
+}
+.main .videos .contents .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+.main .videos .contents img{
+    border-radius: 10px;
+}
+.main .videos .contents img:hover{
+/*     border: 4px solid rgb(21, 204, 228);
+ */    border-radius: 0px;
+}
+.main .videos .contents .fa-user{
+    color: black;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 10px;
+}
